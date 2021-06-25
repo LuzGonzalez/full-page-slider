@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Slider</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Products.</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="imgBx">
+            <img src="./SRC/img1.jpg" class="active">
+            <img src="./SRC/img2.jpg">
+            <img src="./SRC/img3.jpg">
+            <img src="./SRC/img4.jpg">
+        </div>
+
+        <div class="contentBx">
+            <div class="active">
+                <h2>Slide Text One</h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, deserunt ipsa doloribus ex odit libero delectus
+                </p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Two</h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, deserunt ipsa doloribus ex odit libero delectus
+                </p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Three</h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, deserunt ipsa doloribus ex odit libero delectus
+                </p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Four</h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique, deserunt ipsa doloribus ex odit libero delectus
+                </p>
+                <a href="#">Details</a>
+            </div>
+        </div>
+        <ul class="controls">
+            <li onclick="prevSlide(); prevSlideText();"></li>
+            <li onclick="nextSlide(); nextSlideText();"></li>
+        </ul>
+    </section>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
